@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+
+    background-color: #208bc9;;
+    background-image: radial-gradient(circle at 46.67% 50.29%, #208bc9 0, 25%, #1351a1 50%, #208bc9 75%, #00174d 100%);
+}
+
+.container{
+    border-radius: 50;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.titulo{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.subtitle{
+    margin: 50px 250px 0px 250px;
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    font-size: 20px;
+    background-color: #212529;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    
+}
+
+.produtos li{
+    font-weight: 600;
+}
+
+
+.precoProduct{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    font-size: 16px;
+     
+}
+
+.subtotal{
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right:250px;
+    padding: 20px 180px;
+    background-color: #d3d5e7;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    display: flex;
+    gap: 265px;
+    
+}
+
+.botao{
+    margin-top: 10px;
+    margin-left: 250px;
+    padding: 10px 300px;
+    background-color: #208bc9;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+  .botao:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  }
+
+  .somaTotal{
+    color: red;
+  }
